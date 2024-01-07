@@ -1,0 +1,47 @@
+# ignore Django settings files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ignore SQLite database
+db.sqlite3
+
+# ignore media files
+media/
+
+# ignore static files
+static/
+
+# ignore env files
+.env
+env
+.venv
+venv
+# ignore PyCharm
+.idea/
+
+# ignore Django migrations files
+*/migrations/
+
+# ignore localization files
+*.mo
+
+# ignore Django REST Framework files
+*.log
+
+# ignore Django REST Framework localization files
+*.pot
+*.po
+*.mo
+
+# ignore cash
+__pycache__/
+.cached/
+.cache/
+
+# ignore Poetry
+poetry.lock
+pyproject.toml
+poetry.toml
+__pypackages__/
